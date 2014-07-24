@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+	<item id="1" destination="罗马" period="5" beg_date="2014-09-27" />
+	<item id="2" destination="佛罗伦萨" period="3" beg_date="2014-10-01" />
+</data>

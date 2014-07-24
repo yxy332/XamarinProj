@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB4A6240000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345B2C200000000000000000 /* UIKit.framework */; };
+		214A49570000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DB55F50000000000000000 /* MapKit.framework */; };
+		367DB1EF0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0EBE8D0000000000000000 /* Foundation.framework */; };
+		29E894380000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D79A0D60000000000000000 /* CoreGraphics.framework */; };
+		1D0D0BDB0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 209E18790000000000000000 /* Default-568h@2x.png */; };
+		324074730000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35D181110000000000000000 /* Info.plist */; };
+		206B355D0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23FC41FB0000000000000000 /* Entitlements.plist */; };
+		114186AC0000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6C47960000000000000000 /* MainStoryboard.storyboard */; };
+		DB07A0E00000000000000000 /* setting_32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD543400000000000000000 /* setting_32@2x.png */; };
+		A1F6D7000000000000000000 /* setting_48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E60D200000000000000000 /* setting_48@2x.png */; };
+		149FB02E0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 38174B3E0000000000000000 /* AppDelegate.h */; };
+		110EA3900000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA857DC0000000000000000 /* AppDelegate.m */; };
+		D7D96F200000000000000000 /* EasyPacking_IOSViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3F39647A0000000000000000 /* EasyPacking_IOSViewController.h */; };
+		9EC8A5400000000000000000 /* EasyPacking_IOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA711800000000000000000 /* EasyPacking_IOSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B8EE64E0000000000000000 /* EasyPacking_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "EasyPacking_IOS.app"; path = "EasyPacking_IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345B2C200000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		24DB55F50000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		3A0EBE8D0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		2D79A0D60000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		209E18790000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		35D181110000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		23FC41FB0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		3F6C47960000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "Layout/MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		2FD543400000000000000000 /* setting_32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "setting_32@2x.png"; path = "setting_32@2x.png"; sourceTree = "<group>"; };
+		68E60D200000000000000000 /* setting_48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "setting_48@2x.png"; path = "setting_48@2x.png"; sourceTree = "<group>"; };
+		38174B3E0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		3BA857DC0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		3F39647A0000000000000000 /* EasyPacking_IOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EasyPacking_IOSViewController.h"; path = "EasyPacking_IOSViewController.h"; sourceTree = "<group>"; };
+		2CA711800000000000000000 /* EasyPacking_IOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EasyPacking_IOSViewController.m"; path = "EasyPacking_IOSViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34863EA00000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB4A6240000000000000000 /* UIKit.framework in Frameworks */,
+				214A49570000000000000000 /* MapKit.framework in Frameworks */,
+				367DB1EF0000000000000000 /* Foundation.framework in Frameworks */,
+				29E894380000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B0C92E0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				3E0A5C1B0000000000000000 /* EasyPacking_IOS */,
+				8BD81F500000000000000000 /* Frameworks */,
+				2363EF080000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2363EF080000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B8EE64E0000000000000000 /* EasyPacking_IOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		8BD81F500000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345B2C200000000000000000 /* UIKit.framework */,
+				24DB55F50000000000000000 /* MapKit.framework */,
+				3A0EBE8D0000000000000000 /* Foundation.framework */,
+				2D79A0D60000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		3E0A5C1B0000000000000000 /* EasyPacking_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				38174B3E0000000000000000 /* AppDelegate.h */,
+				209E18790000000000000000 /* Default-568h@2x.png */,
+				3F39647A0000000000000000 /* EasyPacking_IOSViewController.h */,
+				23FC41FB0000000000000000 /* Entitlements.plist */,
+				35D181110000000000000000 /* Info.plist */,
+				2FD543400000000000000000 /* setting_32@2x.png */,
+				68E60D200000000000000000 /* setting_48@2x.png */,
+				28A410670000000000000000 /* Layout */,
+				34A7D7A00000000000000000 /* Supporting Files */,
+			);
+			name = "EasyPacking_IOS";
+			sourceTree = "<group>";
+		};
+		28A410670000000000000000 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				3F6C47960000000000000000 /* MainStoryboard.storyboard */,
+			);
+			name = "Layout";
+			sourceTree = "<group>";
+		};
+		34A7D7A00000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA857DC0000000000000000 /* AppDelegate.m */,
+				2CA711800000000000000000 /* EasyPacking_IOSViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1370A7CF0000000000000000 /* EasyPacking_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CA3ABC0000000000000000 /* Build configuration list for PBXNativeTarget "EasyPacking_IOS" */;
+			buildPhases = (
+				65B7DB600000000000000000 /* Sources */,
+				34863EA00000000000000000 /* Frameworks */,
+				1F85B9240000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyPacking_IOS";
+			productName = "EasyPacking_IOS";
+			productReference = 1B8EE64E0000000000000000 /* EasyPacking_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ED567B50000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1E23CDA90000000000000000 /* Build configuration list for PBXProject "EasyPacking_IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18B0C92E0000000000000000;
+			productRefGroup = 2363EF080000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1370A7CF0000000000000000 /* EasyPacking_IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F85B9240000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0D0BDB0000000000000000 /* Default-568h@2x.png in Resources */,
+				324074730000000000000000 /* Info.plist in Resources */,
+				206B355D0000000000000000 /* Entitlements.plist in Resources */,
+				114186AC0000000000000000 /* MainStoryboard.storyboard in Resources */,
+				DB07A0E00000000000000000 /* setting_32@2x.png in Resources */,
+				A1F6D7000000000000000000 /* setting_48@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B7DB600000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149FB02E0000000000000000 /* AppDelegate.h in Sources */,
+				110EA3900000000000000000 /* AppDelegate.m in Sources */,
+				D7D96F200000000000000000 /* EasyPacking_IOSViewController.h in Sources */,
+				9EC8A5400000000000000000 /* EasyPacking_IOSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B0FF8A0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		1F1FF2EC0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "EasyPacking_IOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E23CDA90000000000000000 /* Build configuration list for PBXProject "EasyPacking_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B0FF8A0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		38CA3ABC0000000000000000 /* Build configuration list for PBXNativeTarget "EasyPacking_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1FF2EC0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ED567B50000000000000000 /* Project object */;
+}
