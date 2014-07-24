@@ -13,6 +13,7 @@
     <Folder Include="$(MSBuildThisFileDirectory)Shared Code\" />
     <Folder Include="$(MSBuildThisFileDirectory)Shared Code\DAL\" />
     <Folder Include="$(MSBuildThisFileDirectory)Shared Code\Model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Frame\Log\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Frame\Common\StaticConst.cs" />

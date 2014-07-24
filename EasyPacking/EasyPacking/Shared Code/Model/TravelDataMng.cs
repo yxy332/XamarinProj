@@ -7,8 +7,20 @@ namespace EasyPacking
 {
 	public class TravelDataMng
 	{
-		public TravelDataMng ()
+		static private TravelDataMng m_instance = null;
+
+		protected TravelDataMng() {
+		}
+
+		static public TravelDataMng instance
 		{
+			get {
+				if (m_instance == null) {
+					m_instance = new TravelDataMng ();
+				}
+
+				return m_instance;
+			}
 		}
 
 		#region Fields
