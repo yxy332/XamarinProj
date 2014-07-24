@@ -2,6 +2,7 @@
 using System.IO;
 using System.Collections;
 using System.Xml;
+using OCTVision.Frame.Debug;
 
 namespace EasyPacking
 {
@@ -27,8 +28,15 @@ namespace EasyPacking
 		private ArrayList m_travel_datas = new ArrayList();
 		#endregion
 
+		#region Properties
+		public int count {
+			get { return m_travel_datas.Count; }
+		}
+		#endregion
+
 		#region Methods
-		public void LoadFromXml () {
+		public void LoadFromXml () 
+		{
 			XmlTextReader xml_reader = null;
 			m_travel_datas.Clear ();
 
@@ -54,9 +62,10 @@ namespace EasyPacking
 						}
 					}
 				}
-
-				Console.WriteLine("Read Count = " + m_travel_datas.Count);
+					
+				Debugger.LogInfo("Read Count = " + m_travel_datas.Count);
 			} catch(Exception e){
+				Debugger.LogError(e.Message);
 			} finally{
 				if(xml_reader != null)
 				{
@@ -68,7 +77,8 @@ namespace EasyPacking
 			#endif
 		}
 
-		public void Edit (TravelData p_data) {
+		public void Edit (TravelData p_data) 
+		{
 			int id = p_data.id;
 
 			foreach (TravelData item in m_travel_datas) {
@@ -79,7 +89,28 @@ namespace EasyPacking
 			}
 		}
 
-		public bool Contain (int p_id) {
+		public TravelData Find (int p_id)
+		{
+			foreach (TravelData item in m_travel_datas) {
+				if (item.id == p_id) {
+					return item;
+				}
+			}
+
+			return null;
+		}
+
+		public TravelData Get (int p_idx)
+		{
+			if (p_idx >= count) {
+				return null;
+			}
+
+			return m_travel_datas [p_idx] as TravelData;
+		}
+
+		public bool Contain (int p_id) 
+		{
 			foreach (TravelData item in m_travel_datas) {
 				if (item.id == p_id) {
 					return true;

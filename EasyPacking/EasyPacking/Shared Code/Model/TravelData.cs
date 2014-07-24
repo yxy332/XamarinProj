@@ -11,7 +11,7 @@ namespace EasyPacking
 
 		#region Fields
 		private int m_id = 0;
-		private string m_destination = null;
+		private string m_destination = string.Empty;
 		private int m_period = 0;
 		private DateTime m_beg_date = new DateTime();
 		#endregion
@@ -35,7 +35,8 @@ namespace EasyPacking
 		#endregion
 
 		#region Methods
-		public void Set(string p_des, int p_period, DateTime p_beg_date) {
+		public void Set(string p_des, int p_period, DateTime p_beg_date) 
+		{
 			if (string.IsNullOrEmpty(p_des) || p_period <= 0) {
 				throw new ArgumentNullException ();
 			}

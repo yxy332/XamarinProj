@@ -4,6 +4,8 @@ using System;
 
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using OCTVision.Frame.Debug;
+using EasyPacking;
 
 namespace EasyPacking_IOS
 {
@@ -11,6 +13,21 @@ namespace EasyPacking_IOS
 	{
 		public MainPageController (IntPtr handle) : base (handle)
 		{
+		}
+
+		public override void ViewWillAppear (bool animated)
+		{
+			base.ViewWillAppear (animated);
+
+			//Test
+			Debugger.log_level = LogLevel.LL_ALL;
+			TravelDataMng.instance.LoadFromXml ();
+			TableView.Source = new MainPageSource ();
+		}
+
+		public override void ViewDidLoad ()
+		{
+			base.ViewDidLoad ();
 		}
 	}
 }

@@ -11,9 +11,8 @@
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Frame\" />
     <Folder Include="$(MSBuildThisFileDirectory)Shared Code\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Shared Code\DAL\" />
     <Folder Include="$(MSBuildThisFileDirectory)Shared Code\Model\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Frame\Log\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Frame\Debug\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Frame\Common\StaticConst.cs" />
@@ -23,5 +22,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Shared Code\Weather\WeatherFacade.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Shared Code\Model\TravelData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Shared Code\Model\TravelDataMng.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Frame\Debug\Debugger.cs" />
   </ItemGroup>
 </Project>

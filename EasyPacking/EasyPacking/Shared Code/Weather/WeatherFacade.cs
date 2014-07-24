@@ -3,7 +3,7 @@ using System.Collections;
 using OCTVision.Frame.Common;
 using OCTVision.Frame.Weather;
 
-namespace OCTVision.Yancheng
+namespace EasyPacking
 {
 	public class WeatherFacade
 	{

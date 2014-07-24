@@ -106,6 +106,7 @@
     <Compile Include="Src\MainPage\MainPageController.designer.cs">
       <DependentUpon>MainPageController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Src\MainPage\MainPageSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Layout\MainStoryboard.storyboard" />

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OCTVision.Yancheng
+namespace EasyPacking
 {
 	#region const define
 
