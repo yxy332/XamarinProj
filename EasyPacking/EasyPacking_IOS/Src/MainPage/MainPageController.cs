@@ -23,6 +23,7 @@ namespace EasyPacking_IOS
 			Debugger.log_level = LogLevel.LL_ALL;
 			TravelDataMng.instance.LoadFromXml ();
 			TableView.Source = new MainPageSource ();
+			TableView.ReloadData ();
 		}
 
 		public override void ViewDidLoad ()

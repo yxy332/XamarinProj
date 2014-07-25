@@ -26,18 +26,31 @@ namespace EasyPacking_IOS
 			return TravelDataMng.instance.count;
 		}
 
+		public override float GetHeightForRow (UITableView tableView, MonoTouch.Foundation.NSIndexPath indexPath)
+		{
+			UITableViewCell cell = tableView.DequeueReusableCell (m_cell_identifier);
+
+			if (cell == null) { 
+				cell = TravelViewCell.Create ();
+				(cell as TravelViewCell).travel_data = TravelDataMng.instance.Get (indexPath.Row);
+			}
+
+			return cell.Bounds.Height;
+		}
+			
 		public override UITableViewCell GetCell (UITableView tableView, MonoTouch.Foundation.NSIndexPath indexPath)
 		{
 			// in a Storyboard, Dequeue will ALWAYS return a cell, 
 			UITableViewCell cell = tableView.DequeueReusableCell (m_cell_identifier);
 
 			if (cell == null) { 
-				cell = new UITableViewCell (UITableViewCellStyle.Default, m_cell_identifier); 
+				cell = TravelViewCell.Create ();
+				(cell as TravelViewCell).travel_data = TravelDataMng.instance.Get (indexPath.Row);
 			}
 
 			//---- set the item text
 			// now set the properties as normal
-			cell.TextLabel.Text = TravelDataMng.instance.Get(indexPath.Row).destination;
+			//cell.TextLabel.Text = TravelDataMng.instance.Get(indexPath.Row).destination;
 
 			return cell;
 		}

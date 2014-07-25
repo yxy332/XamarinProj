@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E918B820000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222298200000000000000000 /* UIKit.framework */; };
+		272EB5000000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B83B5300000000000000000 /* MapKit.framework */; };
+		155A974D0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EBA3EB0000000000000000 /* Foundation.framework */; };
+		8C5799600000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56863400000000000000000 /* CoreGraphics.framework */; };
+		103C75FF0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13CD829D0000000000000000 /* Default-568h@2x.png */; };
+		256FDE970000000000000000 /* setting_32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2900EB350000000000000000 /* setting_32@2x.png */; };
+		139A9F810000000000000000 /* setting_48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 172BAC1F0000000000000000 /* setting_48@2x.png */; };
+		1C5606B00000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5566D0900000000000000000 /* Info.plist */; };
+		1E1AE23F0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21ABEEDD0000000000000000 /* Entitlements.plist */; };
+		286841E10000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF94E7F0000000000000000 /* MainStoryboard.storyboard */; };
+		39D7BABF0000000000000000 /* TravelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D68C75D0000000000000000 /* TravelViewCell.xib */; };
+		37F5C2E20000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 3B86CF800000000000000000 /* AppDelegate.h */; };
+		ED8403B00000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12694CD90000000000000000 /* AppDelegate.m */; };
+		9653BC000000000000000000 /* MainPageController.h in Sources */ = {isa = PBXBuildFile; fileRef = CF6485E00000000000000000 /* MainPageController.h */; };
+		612AA7000000000000000000 /* MainPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2374500000000000000000 /* MainPageController.m */; };
+		23D8C5B70000000000000000 /* TravelViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 2769D2550000000000000000 /* TravelViewCell.h */; };
+		11D0A3850000000000000000 /* TravelViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1561B0230000000000000000 /* TravelViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13D786CD0000000000000000 /* EasyPacking_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "EasyPacking_IOS.app"; path = "EasyPacking_IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222298200000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		3B83B5300000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		18EBA3EB0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		C56863400000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		13CD829D0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2900EB350000000000000000 /* setting_32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "setting_32@2x.png"; path = "setting_32@2x.png"; sourceTree = "<group>"; };
+		172BAC1F0000000000000000 /* setting_48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "setting_48@2x.png"; path = "setting_48@2x.png"; sourceTree = "<group>"; };
+		5566D0900000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		21ABEEDD0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		2BF94E7F0000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "Layout/MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		3D68C75D0000000000000000 /* TravelViewCell.xib */ = {isa = PBXFileReference; name = "TravelViewCell.xib"; path = "Src/MainPage/TravelViewCell.xib"; sourceTree = "<group>"; };
+		3B86CF800000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		12694CD90000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		CF6485E00000000000000000 /* MainPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainPageController.h"; path = "MainPageController.h"; sourceTree = "<group>"; };
+		3F2374500000000000000000 /* MainPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainPageController.m"; path = "MainPageController.m"; sourceTree = "<group>"; };
+		2769D2550000000000000000 /* TravelViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TravelViewCell.h"; path = "TravelViewCell.h"; sourceTree = "<group>"; };
+		1561B0230000000000000000 /* TravelViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TravelViewCell.m"; path = "TravelViewCell.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DFA8FF0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E918B820000000000000000 /* UIKit.framework in Frameworks */,
+				272EB5000000000000000000 /* MapKit.framework in Frameworks */,
+				155A974D0000000000000000 /* Foundation.framework in Frameworks */,
+				8C5799600000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F91A8D00000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				3092CED90000000000000000 /* EasyPacking_IOS */,
+				3949FD870000000000000000 /* Frameworks */,
+				3B45F4B30000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B45F4B30000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D786CD0000000000000000 /* EasyPacking_IOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		3949FD870000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222298200000000000000000 /* UIKit.framework */,
+				3B83B5300000000000000000 /* MapKit.framework */,
+				18EBA3EB0000000000000000 /* Foundation.framework */,
+				C56863400000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		3092CED90000000000000000 /* EasyPacking_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B86CF800000000000000000 /* AppDelegate.h */,
+				13CD829D0000000000000000 /* Default-568h@2x.png */,
+				21ABEEDD0000000000000000 /* Entitlements.plist */,
+				5566D0900000000000000000 /* Info.plist */,
+				CF6485E00000000000000000 /* MainPageController.h */,
+				2900EB350000000000000000 /* setting_32@2x.png */,
+				172BAC1F0000000000000000 /* setting_48@2x.png */,
+				2769D2550000000000000000 /* TravelViewCell.h */,
+				15F9A3300000000000000000 /* Layout */,
+				19F12C4D0000000000000000 /* Src */,
+				17DC51540000000000000000 /* Supporting Files */,
+			);
+			name = "EasyPacking_IOS";
+			sourceTree = "<group>";
+		};
+		15F9A3300000000000000000 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				2BF94E7F0000000000000000 /* MainStoryboard.storyboard */,
+			);
+			name = "Layout";
+			sourceTree = "<group>";
+		};
+		19F12C4D0000000000000000 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				F3E067300000000000000000 /* MainPage */,
+			);
+			name = "Src";
+			sourceTree = "<group>";
+		};
+		F3E067300000000000000000 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				3D68C75D0000000000000000 /* TravelViewCell.xib */,
+			);
+			name = "MainPage";
+			sourceTree = "<group>";
+		};
+		17DC51540000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12694CD90000000000000000 /* AppDelegate.m */,
+				3F2374500000000000000000 /* MainPageController.m */,
+				1561B0230000000000000000 /* TravelViewCell.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		213D19410000000000000000 /* EasyPacking_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DE30E80000000000000000 /* Build configuration list for PBXNativeTarget "EasyPacking_IOS" */;
+			buildPhases = (
+				140A69E90000000000000000 /* Sources */,
+				25DFA8FF0000000000000000 /* Frameworks */,
+				3CF509740000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyPacking_IOS";
+			productName = "EasyPacking_IOS";
+			productReference = 13D786CD0000000000000000 /* EasyPacking_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1689F3670000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 172B0B0E0000000000000000 /* Build configuration list for PBXProject "EasyPacking_IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F91A8D00000000000000000;
+			productRefGroup = 3B45F4B30000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				213D19410000000000000000 /* EasyPacking_IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF509740000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103C75FF0000000000000000 /* Default-568h@2x.png in Resources */,
+				256FDE970000000000000000 /* setting_32@2x.png in Resources */,
+				139A9F810000000000000000 /* setting_48@2x.png in Resources */,
+				1C5606B00000000000000000 /* Info.plist in Resources */,
+				1E1AE23F0000000000000000 /* Entitlements.plist in Resources */,
+				286841E10000000000000000 /* MainStoryboard.storyboard in Resources */,
+				39D7BABF0000000000000000 /* TravelViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		140A69E90000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F5C2E20000000000000000 /* AppDelegate.h in Sources */,
+				ED8403B00000000000000000 /* AppDelegate.m in Sources */,
+				9653BC000000000000000000 /* MainPageController.h in Sources */,
+				612AA7000000000000000000 /* MainPageController.m in Sources */,
+				23D8C5B70000000000000000 /* TravelViewCell.h in Sources */,
+				11D0A3850000000000000000 /* TravelViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A73CB30000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		C77E53400000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "EasyPacking_IOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172B0B0E0000000000000000 /* Build configuration list for PBXProject "EasyPacking_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A73CB30000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		21DE30E80000000000000000 /* Build configuration list for PBXNativeTarget "EasyPacking_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77E53400000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1689F3670000000000000000 /* Project object */;
+}

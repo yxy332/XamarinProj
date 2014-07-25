@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EasyPacking_IOS/Src/MainPage/MainPageSource.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EasyPacking_IOS/Src/MainPage/TravelViewCell.cs">
     <Files>
       <File FileName="EasyPacking_IOS/UserData/TravelData.xml" Line="1" Column="1" />
       <File FileName="EasyPacking/Shared Code/Model/TravelDataMng.cs" Line="1" Column="1" />
       <File FileName="EasyPacking_IOS/Src/MainPage/MainPageController.cs" Line="1" Column="1" />
-      <File FileName="EasyPacking_IOS/Src/MainPage/MainPageSource.cs" Line="16" Column="3" />
+      <File FileName="EasyPacking_IOS/Src/MainPage/MainPageSource.cs" Line="1" Column="1" />
+      <File FileName="EasyPacking_IOS/Src/MainPage/TravelViewCell.cs" Line="33" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

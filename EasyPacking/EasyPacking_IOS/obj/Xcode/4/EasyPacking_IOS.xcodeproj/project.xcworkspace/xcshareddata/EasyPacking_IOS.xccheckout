@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2086FE27-EE55-4088-8A36-AE6E35E36247</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EasyPacking_IOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6A3C426D-9F05-4827-9BD1-3C504A7BC868</key>
+		<string>https://github.com/yxy332/XamarinProj.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EasyPacking/EasyPacking_IOS/obj/Xcode/4/EasyPacking_IOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6A3C426D-9F05-4827-9BD1-3C504A7BC868</key>
+		<string>../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yxy332/XamarinProj.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6A3C426D-9F05-4827-9BD1-3C504A7BC868</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6A3C426D-9F05-4827-9BD1-3C504A7BC868</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyXamarinProj</string>
+		</dict>
+	</array>
+</dict>
+</plist>

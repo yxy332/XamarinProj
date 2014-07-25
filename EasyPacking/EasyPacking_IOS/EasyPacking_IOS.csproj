@@ -107,9 +107,14 @@
       <DependentUpon>MainPageController.cs</DependentUpon>
     </Compile>
     <Compile Include="Src\MainPage\MainPageSource.cs" />
+    <Compile Include="Src\MainPage\TravelViewCell.cs" />
+    <Compile Include="Src\MainPage\TravelViewCell.designer.cs">
+      <DependentUpon>TravelViewCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Layout\MainStoryboard.storyboard" />
+    <InterfaceDefinition Include="Src\MainPage\TravelViewCell.xib" />
   </ItemGroup>
   <Import Project="..\EasyPacking\EasyPacking.projitems" Label="Shared" Condition="Exists('..\EasyPacking\EasyPacking.projitems')" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
